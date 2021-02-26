@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="container lessWide">
+            <div class="login">
+                <h1 class="text-center">Predict Your Tip Earnings</h1>
+                 <!-- Main Input For Receiving Query to our ML -->
+                <form action="{{ url_for('predictLR')}}"method="post">
+                    <div class="row">
+                            Total bill cost:
+                            <input type="number" name="total bill" placeholder="total bill" required="required" />
+                            Size of the party:
+                            <input type="number" name="size" placeholder="size of party" required="required" />
+                        <div class="col">
+                            <div class="row">
+                                <label for="gender">Gender of bill payer:</label>
+                                <select name="gender" id="gender">
+                                        <option value="0">Female</option>
+                                        <option value="1">Male</option>
+                                    </select>
+                            </div>
+                            <div class="row">
+                                <label for="smoker">Group has smokers:</label>
+                                <select name="smoker" id="smoker">
+                                        <option value="0">No</option>
+                                        <option value="1">Yes</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <label for="day">Day of the week:</label>
+                                    <select name="day" id="day">
+                                        <option value="3">Thurs</option>
+                                        <option value="2">Fri</option>
+                                        <option value="1">Sat</option>
+                                        <option value="0">Sun</option>
+                                    </select>
+                            </div>
+                            <div class="row">
+                            <label for="time">Time of day:</label>
+                                <select name="time" id="time">
+                                    <option value="1">Lunch</option>
+                                    <option value="0">Dinner</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "d-flex justify-content-center">
+                    <button type="submit" class="btn btn-success btn-block btn-large button">
+                        Predict tip amount
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
+                          <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                          <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"/>
+                        </svg>
+                    </button>
+                    </div>
+                </form>
+                <div class = "d-flex justify-content-center">
+                    {{ prediction_text }}
+                </div>
+             </div>
+        </div>
+{% endblock content %}
