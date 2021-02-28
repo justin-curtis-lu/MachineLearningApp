@@ -8,7 +8,7 @@ Clone the repository
 
 ### Installing
 
-If using a PyCharm virtual enviornment the modules may not install smoothly and you may want to use Anaconda for 
+If using a PyCharm virtual enviornment, the modules may not install smoothly and you may want to use Anaconda for 
 some of the ML modules. 
 All of the modules found in the requirements.txt file are needed for this project. In your virtual enviornment type
 
@@ -17,8 +17,8 @@ pip install -r requirements.txt
 ```
 ### Models
 
-Make sure to run summarization.py in order to create the pkl file for the model. Since the model is large and isnt
-on Github you have to create it manually. The other 2 models are already created and are stored in the models directory.
+Make sure to run summarization.py in order to create the pkl file for the text summarization model. Since the model is large and is not stored
+on Github, you have to create it manually. The other 2 models are already created and are stored in the models directory.
 
 ```
 py summarization.py
