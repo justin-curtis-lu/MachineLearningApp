@@ -1,7 +1,7 @@
 import pandas as pd
 import pickle
 
-# Using pandas read in our data set
+# Using pandas to read in our data set
 dataset = pd.read_csv('data/tips.csv')
 
 # For our linear regression, we will designate all columns excluding (tip)
@@ -41,5 +41,5 @@ lrModel = LinearRegression()
 # Train the model with our X and Y variables
 lrModel.fit(X, y)
 
-# Use dump attribute on model to store it for our app
-pickle.dump(lrModel, open('LR.pkl', 'wb'))
+# Use pickle to save to local
+pickle.dump(lrModel, open('models/tips.pkl', 'wb'))
