@@ -19,8 +19,18 @@
         <link rel="shortcut icon" href="static/favicon.ico">
     </head>
 <body>
-    <div class="row">
-        <div class="col-md-8">
+    <!-- header -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand mr-4" href="/">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
@@ -31,7 +41,5 @@
             {% endif %}
         {% endwith %}
         {% block content %}{% endblock %}
-        </div>
-    </div>
 </body>
 </html>

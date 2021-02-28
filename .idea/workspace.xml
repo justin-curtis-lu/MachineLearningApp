@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc227df6-f412-4b97-9eca-27f130519427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/LR.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLASSmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classModel.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Iris.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/setosa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/versicolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/virginica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mlflask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mlflask.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/LR.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/LRmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/class.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/class.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/tips.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +50,26 @@
     </option>
   </component>
   <component name="ProjectId" id="1ozilPKHP2uYNll7gNKh88bjgHe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../eAir" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Justin\Desktop\mlflask\data" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,18 +84,21 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614298783792">
+    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614474831089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1614298783792" />
+    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1614474831089" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1614372958936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614372958936" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1614331627696">
+    <state x="277" y="55" key="SettingsEditor" timestamp="1614377970060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614331627696" />
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614377970060" />
   </component>
 </project>

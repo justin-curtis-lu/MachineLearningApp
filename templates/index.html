@@ -1,5 +1,14 @@
 {% extends "layout.html" %}
 {% block content %}
-    <a class="nav-item nav-link" href="{{ url_for('LR') }}">Linear Regression</a>
-    <a class="nav-item nav-link" href="{{ url_for('classification') }}">Classification</a>
+        <div class = "d-flex justify-content-center ">
+        <div class="row">
+            <a class="nav-item nav-link" href="{{ url_for('LR') }}">Linear Regression</a>
+        </div>
+        <div class="row">
+            <a class="nav-item nav-link" href="{{ url_for('classification') }}">Classification</a>
+        </div>
+        <div class="row">
+            <a class="nav-item nav-link" href="{{ url_for('AbstractiveSummarization') }}">AbstractiveSummarization</a>
+        </div>
+    </div>
 {% endblock content %}
