@@ -1,6 +1,6 @@
 # MachineLearningApp
 
-This application allows the user to provide input for a linear regression, classification, and text summarization model. The framework was done using Flask and the models created using sklearn and transformers module. Pickle was used to save the models and retrieved when the application is served. The main reason I wanted to work on this project was to get experience deploying ML models on a web framework.
+This application allows the user to provide input for a linear regression, classification, and text summarization model. The framework was done using Flask and the models created using sklearn and the transformers module. The Pickle module was used to save the models for usage when the application is deployed. The main reason I wanted to work on this project was to get experience deploying ML models on a web framework.
 
 ## Getting Started
 
