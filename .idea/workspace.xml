@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc227df6-f412-4b97-9eca-27f130519427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLASSmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classModel.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Iris.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/setosa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/versicolor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/virginica.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mlflask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mlflask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/LR.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/LRmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/class.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/class.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tips.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/tips.csv" afterDir="false" />
-    </list>
+    <list default="true" id="dc227df6-f412-4b97-9eca-27f130519427" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
