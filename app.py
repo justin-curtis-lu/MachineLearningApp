@@ -17,13 +17,13 @@ def home():
     return render_template('index.html')
 
 # Linear Regression
-@app.route('/LR')
-def LR():
+@app.route('/LinearRegression')
+def LinearRegression():
     return render_template('LR.html')
 
 # Predict
-@app.route('/predictLR',methods=['POST'])
-def predictLR():
+@app.route('/PredictRegression',methods=['POST'])
+def PredictRegression():
     features = [int(x) for x in request.form.values()]
     featuresList = [np.array(features)]
     label = regressionModel.predict(featuresList)
@@ -36,26 +36,27 @@ def AbstractiveSummarization():
     return render_template('text.html')
 
 # Predict
-@app.route('/predictSummarization',methods=['POST'])
-def predictSummarization():
+@app.route('/PredictSummarization',methods=['POST'])
+def PredictSummarization():
     text = request.form['summary']
-    output = summarizationModel(text)[0]['summary_text']
-    return render_template('text.html', prediction_text='Summary: $ {}'.format(output))
+    if text != "":
+        output = summarizationModel(text)[0]['summary_text']
+    return render_template('text.html', prediction_text=output)
 
 # Classification
-@app.route('/classification')
-def classification():
+@app.route('/Classification')
+def Classification():
     return render_template('class.html')
 
 # Predict
-@app.route('/predictClassification', methods=['POST'])
-def predictClassification():
+@app.route('/PredictClassification', methods=['POST'])
+def PredictClassification():
     s_length, s_width, p_length, p_width = request.form['sLength'], request.form['sWidth'],\
                                        request.form['pLength'], request.form['pWidth']
     featuresList = np.array([[s_length, s_width, p_length, p_width]])
     label = classificationModel.predict(featuresList)
     output = round(label[0], 2)
-    return render_template('class.html', prediction_text='Your flower is: $ {}'.format(output))
+    return render_template('class.html', species=output)
 
 if __name__ == "__main__":
     app.run(debug=True)

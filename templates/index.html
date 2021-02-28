@@ -1,14 +1,20 @@
 {% extends "layout.html" %}
 {% block content %}
-        <div class = "d-flex justify-content-center ">
-        <div class="row">
-            <a class="nav-item nav-link" href="{{ url_for('LR') }}">Linear Regression</a>
-        </div>
-        <div class="row">
-            <a class="nav-item nav-link" href="{{ url_for('classification') }}">Classification</a>
-        </div>
+    <div class = "container text-center">
         <div class="row">
             <a class="nav-item nav-link" href="{{ url_for('AbstractiveSummarization') }}">AbstractiveSummarization</a>
         </div>
+        <div class="row">
+            <a class="nav-item nav-link" href="{{ url_for('LinearRegression') }}">Linear Regression</a>
+        </div>
+        <div class="row">
+            <a class="nav-item nav-link" href="{{ url_for('Classification') }}">Classification</a>
+        </div>
+    </div>
+    <div>
+        <p class="text-center parHelp"> This web application gives access to 3 Machine Learning models that the user can interact with. The first one
+        takes a bulk of text, and uses Abstractive Summarization to return a summary of the text. The second
+        model takes certain inputs (eg: day of the week, total bill cost) and returns how much money you would have made in tips if you were the waiter. The third and final model, given
+        sepal and petal dimensions, returns the most probable species of the Iris genus.</p>
     </div>
 {% endblock content %}

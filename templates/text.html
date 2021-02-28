@@ -1,9 +1,10 @@
 {% extends "layout.html" %}
 {% block content %}
     <div class="d-flex justify-content-center">
-        <form action="{{ url_for('predictSummarization')}}"method="post">
+        <form action="{{ url_for('PredictSummarization')}}"method="post">
             <div class="row">
                 <label for="summary">Write what you want summarized:</label>
+                <p class="smaller">*For best results, please enter 56-142 words*</p>
                 <textarea id="summary" name="summary" rows="4" cols="50">
                 </textarea>
             </div>
@@ -14,8 +15,13 @@
             </div>
         </form>
     </div>
-    Our abstractive summarization model will take longer than classification and linear regression
-    <div class = "d-flex justify-content-center">
-        {{ prediction_text }}
+    <br>
+    <div class = "text-center spacer">
+        <p class="smaller">*Our Abstractive Summarization model will take longer than Classification and Linear Regression models*</p>
+    </div>
+    <br>
+    <div class = "container restricted text-center">
+        <h1>Summary</h1>
+        <p class = "text-center"> {{ prediction_text }} </p>
     </div>
 {% endblock content %}
