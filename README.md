@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ### Models
 
 Make sure to run summarization.py in order to create the pkl file for the model. Since the model is large and isnt
-on git you have to create it manually. The other 2 models are already created and in the models directory.
+on Github you have to create it manually. The other 2 models are already created and are stored in the models directory.
 
 ```
 py summarization.py
