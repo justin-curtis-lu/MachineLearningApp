@@ -39,8 +39,7 @@ def AbstractiveSummarization():
 @app.route('/PredictSummarization',methods=['POST'])
 def PredictSummarization():
     text = request.form['summary']
-    if text != "":
-        output = summarizationModel(text)[0]['summary_text']
+    output = summarizationModel(text)[0]['summary_text']
     return render_template('text.html', prediction_text=output)
 
 # Classification
